@@ -107,14 +107,10 @@ window.addEventListener('scroll', () => {
 
 // ===== DOWNLOAD PDF FUNCTION =====
 function downloadPDF() {
-    // Here you would typically link to your actual PDF file
-    alert('Функция скачивания презентации. Замените эту функцию на ссылку к вашему PDF файлу.');
-    
-    // Example of how to download a file:
-    // const link = document.createElement('a');
-    // link.href = 'path/to/your/presentation.pdf';
-    // link.download = 'NeuroCrimea_Presentation.pdf';
-    // link.click();
+     const link = document.createElement('a');
+     link.href = 'https://raw.githubusercontent.com/fsrubs/neurocrimea/main/Cifrovaya_platforma.pdf';
+     link.download = 'NeuroCrimea_Presentation.pdf';
+     link.click();
 }
 
 // ===== ANIMATE NUMBERS ON SCROLL =====
