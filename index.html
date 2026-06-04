@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="НейроКрым - цифровая платформа нейроанализа и прогнозирования социально-экономических процессов региона">
+    <title>НейроКрым | Цифровая платформа нейроанализа</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>НейроКрым</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#problem">Проблема и решение</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#results">Результаты</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">НейроКрым</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Цифровая платформа нейроанализа и прогнозирования<br>
+                    социально-экономических процессов региона
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Узнать больше
+                    </a>
+                    <a href="#" class="btn btn-secondary" onclick="downloadPDF()">
+                        <i class="fas fa-download"></i> Скачать презентацию
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="ai-visual">
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">О проекте</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">
+                        <strong>НейроКрым</strong> — это инновационная цифровая платформа на базе искусственного интеллекта, 
+                        созданная для комплексного анализа и прогнозирования социально-экономических процессов в Республике Крым.
+                    </p>
+                    <p>
+                        Платформа обеспечивает органы власти, бизнес и научное сообщество современными инструментами 
+                        для принятия обоснованных управленческих решений на основе данных.
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-brain"></i>
+                            <h3>Искусственный интеллект</h3>
+                            <p>Нейросетевые модели прогнозирования</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Аналитика</h3>
+                            <p>Глубокий анализ больших данных</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-eye"></i>
+                            <h3>Визуализация</h3>
+                            <p>Интерактивные дашборды</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="platform-mockup">
+                        <div class="mockup-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="chart-placeholder">
+                                <i class="fas fa-chart-area"></i>
+                                <span>Аналитическая панель</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section id="problem" class="problem section">
+        <div class="container">
+            <h2 class="section-title">Проблема и решение</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Проблема</h3>
+                    <ul>
+                        <li>Отсутствие современных инструментов анализа данных</li>
+                        <li>Принятие решений на основе интуиции, а не данных</li>
+                        <li>Разрозненные источники статистической информации</li>
+                        <li>Недостаточная точность прогнозирования</li>
+                    </ul>
+                </div>
+                <div class="solution-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Решение</h3>
+                    <ul>
+                        <li>Единая цифровая платформа на базе ИИ</li>
+                        <li>Data-driven подход к управлению</li>
+                        <li>Интеграция 8+ источников данных</li>
+                        <li>Точность прогнозов ≥85%</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="alignment">
+                <h3 class="subsection-title">Соответствие национальным целям</h3>
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Цифровая трансформация</h4>
+                    </div>
+                    <div class="goal-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Экономический рост</h4>
+                    </div>
+                    <div class="goal-card">
+                        <i class="fas fa-microscope"></i>
+                        <h4>Научно-технологическое развитие</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+        <div class="container">
+            <h2 class="section-title">Команда проекта</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>[Ваше ФИО]</h3>
+                    <p class="member-role">Автор проекта, руководитель</p>
+                    <p class="member-info">ГПА КФУ им. В.И. Вернадского</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>[Научный руководитель]</h3>
+                    <p class="member-role">Научный руководитель</p>
+                    <p class="member-info">ГПА КФУ им. В.И. Вернадского</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Команда разработчиков</h3>
+                    <p class="member-role">Data Scientists & Developers</p>
+                    <p class="member-info">4 специалиста</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results section">
+        <div class="container">
+            <h2 class="section-title">Ожидаемые результаты</h2>
+            
+            <div class="results-tabs">
+                <button class="tab-btn active" data-tab="quantitative">
+                    <i class="fas fa-chart-bar"></i> Количественные
+                </button>
+                <button class="tab-btn" data-tab="qualitative">
+                    <i class="fas fa-star"></i> Качественные
+                </button>
+            </div>
+
+            <div class="tab-content active" id="quantitative">
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="result-number">1</div>
+                        <div class="result-text">Цифровая платформа</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">5</div>
+                        <div class="result-text">Нейросетевых моделей</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">8</div>
+                        <div class="result-text">Источников данных</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">100</div>
+                        <div class="result-text">Подготовленных специалистов</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">500</div>
+                        <div class="result-text">Пользователей платформы</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-number">85%</div>
+                        <div class="result-text">Точность прогноза</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="qualitative">
+                <div class="qualitative-grid">
+                    <div class="qual-item">
+                        <i class="fas fa-arrow-up"></i>
+                        <h4>Повышение качества управления</h4>
+                        <p>Решения на основе данных</p>
+                    </div>
+                    <div class="qual-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Развитие компетенций</h4>
+                        <p>Навыки работы с ИИ</p>
+                    </div>
+                    <div class="qual-item">
+                        <i class="fas fa-flask"></i>
+                        <h4>Научный потенциал</h4>
+                        <p>Исследовательская экосистема</p>
+                    </div>
+                    <div class="qual-item">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Инновации</h4>
+                        <p>Стартапы в сфере GovTech</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>Республика Крым, г. Ялта<br>Гуманитарно-педагогическая академия<br>ФГАОУ ВО «КФУ им. В.И. Вернадского»</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <h4>Telegram</h4>
+                            <p><a href="https://t.me/yourusername" target="_blank">@yourusername</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" title="ВКонтакте">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 НейроКрым. Все права защищены.</p>
+            <p class="footer-subtitle">Конкурс «Моя страна»</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
